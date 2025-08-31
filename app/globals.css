@@ -1,0 +1,14 @@
+/* keep the import and variables as-is */
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* optional dark block can stay */
+
+body {
+  /* REMOVE background and color so Tailwind utilities work */
+  font-family: Arial, Helvetica, sans-serif;
+}
